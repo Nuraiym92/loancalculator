@@ -4,9 +4,6 @@ document.getElementById("loan-form").addEventListener("submit",loader);
 
 function loader(e){
     e.preventDefault();
-    
-
-        document.querySelector('#output').style.display = 'none';
     const loanAmount=document.getElementById("amount").value;
 const interest=document.getElementById("interest").value;
 const years=document.getElementById("years").value;
